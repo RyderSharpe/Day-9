@@ -1,3 +1,5 @@
+# {"Key": "Value"}
+
 student_scores = {
   "Harry": 81,
   "Ron": 78,
@@ -15,7 +17,7 @@ student_grades = {}
 
 for student in student_scores:
     #print(student) # prints Harry
-    grade = (student_scores[student]) # prints 81
+    grade = (student_scores[student]) # prints value, ie 81
 
     if 91 <= grade <= 100:
         student_grades[student] = "Outstanding"
