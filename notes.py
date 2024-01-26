@@ -10,14 +10,19 @@ print(my_list[4][0])       # Output: nested
 
 # Modifying elements
 my_list[1] = 'world'
+print(my_list) # Output: [1, 'world', 3, 'hello', ['nested', 'list']]
+
 
 # Adding elements
 my_list.append(4)
 my_list.insert(2, 'new')
+print(my_list) # Output: [1, 2, 'new', 3, 'hello', ['nested', 'list'], 4]
+
 
 # Removing elements
 removed_item = my_list.pop(3)
 my_list.remove('world')
+print(my_list)
 
 # List operations
 len(my_list)
